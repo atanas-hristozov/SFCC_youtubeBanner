@@ -1,0 +1,23 @@
+{ 
+    "name":"Youtube Homework",
+    "description":"Youtube Homework.",
+    "region_definitions":[
+        {
+            "id":"headerbanner",
+            "name":"Youtube",
+            "max_components": 1,
+        },
+        {
+            "id":"main",
+            "name":"Main",
+            "component_type_exclusions": [
+                { "type_id": "youtubeBanner" }
+            ]
+        },
+        {
+            "id":"footer",
+            "name":"Footer",
+            "max_components":1
+        }
+    ] 
+}

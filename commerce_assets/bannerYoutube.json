@@ -1,0 +1,20 @@
+{
+    "name": "Youtube Banner",
+    "description": "Youtube Banner",
+    "group": "commerce_assets",
+    "attribute_definition_groups": [
+        {
+            "id":"video",
+            "name":"Youtube video.",
+            "type":"string",
+            "required": true
+        },
+        {
+            "id":"alt",
+            "name":"Youtube video alt text.",
+            "type":"string",
+            "required": false
+        }
+    ],
+    "region_definitions": []
+}
